@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: God abeg
+ * Description: Help me God
  *
  * Return: Always 0 (Success)
  */
