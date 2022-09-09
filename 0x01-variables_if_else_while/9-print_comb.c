@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: program to print all possible combinations of single-digit numbers
+ * Description: So help me God
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int gee;
+	int man;
 
-	for (gee = 48; gee < 58; gee++)
+	for  (man = 48; man < 58; man++)
 	{
-		putchar(gee);
-		if (gee != 57)
+		putchar(man);
+		if (man != 57)
 		{
 			putchar(',');
 			putchar(' ');
