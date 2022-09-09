@@ -3,19 +3,17 @@
 /**
  * main - Entry point
  *
- * Description: another program that prints using only putchar
+ * Description: great code
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-       int num;
+	int num;
 
-	for (num = 0; num < 10; num++)
-	{
+	for (num = 48; num < 58; num++)
 		putchar(num);
-	}
 	putchar('\n');
-	return (0);
-	
+		return (0);
+
 }
