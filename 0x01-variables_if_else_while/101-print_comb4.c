@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: real deep shit
+ * Description: Gog
  *
  * Return: Always 0 (Success)
  */
@@ -16,14 +16,16 @@ int main(void)
 		{
 			for (k = 50; k < 58; k++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(k);
-				if (i != 55 || j != 56)
+				if (k > j && j > i)
 				{
-					putchar(',');
-					putchar(' ');
-
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i != 55 || j != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
