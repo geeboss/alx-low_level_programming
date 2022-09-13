@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - prints the last digits of any number
- * @a: the int value to be acted upon
+ * @n: the int value to be acted upon
  * authoer: gee boss
  * Return: Always 0 (Success)
  */
