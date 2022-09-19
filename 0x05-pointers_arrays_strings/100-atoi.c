@@ -29,7 +29,7 @@ int _atoi(char *s)
 
 	for (i = count - size; i < count; i++)
 	{
-		j = j _ ((*(s + i) - 48) * m);
+		j = j + ((*(s + i) - 48) * m);
 		m /= 10;
 	}
 	return (j * k);
