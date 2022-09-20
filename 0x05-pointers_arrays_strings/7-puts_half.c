@@ -6,23 +6,20 @@
  * @str: pointer parameter
  * Author: Gee Boss
  */
-void puts_half(char*str)
+void puts_half(char *str)
 {
-	int count = 0, i;
+	int len = 0;
 
-	while (count >= 0)
-	{
-		if (str[count] == '\0')
-			break;
-		count++;
-	}
-	
-	if (count % 2 == 1)
-		i = count / 2;
+	while (*(str + len) != '\0')
+		len++;
+	if (len % 2 == 0)
+		len /= 2;
 	else
-		i = (count - 1) / 2;
-
-	for (i++; i < count; i++)
-		_putchar(str[i]);
+		len = len / 2 + 1;
+	while (*(str + len) != '\0')
+	{
+		_putchar(*(str + len));
+		len++;
+	}
 	_putchar('\n');
 }
