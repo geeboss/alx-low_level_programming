@@ -2,6 +2,7 @@
 /**
  * evaluate_num - recursion loop
  * @num: num
+ * Desc: hmmm
  * @iterator: number to iterate
  * Return: return 1 or 0
  */
@@ -24,7 +25,9 @@ int evaluate_num(int num, int iterator)
 
 	return (0);
 }
-/** is_prime_number - evaluate prime or not
+
+/**
+ * is_prime_number - evaluate prime or not
  * @num: number
  * Return: return 1 prime - return 0 otherwise
  */
