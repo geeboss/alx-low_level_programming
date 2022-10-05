@@ -10,7 +10,7 @@ int _strlen(char *s)
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != '\0')/* count character of string */
+	while (s[i] != '\0') /* count character of string*/
 	{
 		i++;
 	}
@@ -19,10 +19,10 @@ int _strlen(char *s)
 }
 
 /**
- * str_concat - back a pointer to array
+ * str_concat - back a pointr to array
  * @s1: Array one
  * @s2: Array two
- * Return : Always an array dynamic
+ * Return: Always an array dynamic
  */
 
 char *str_concat(char *s1, char *s2)
@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	char *dst;
 	unsigned int i, j, size;
 
-	/*If the array is empty*/
+	/*If the array is empty */
 	if (s1 == NULL)
 		s1 = "";
 
@@ -48,7 +48,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	/*Concatenate arrays*/
+	/*concatenate arrays*/
 	for (i = 0; *(s1 + i) != '\0'; i++)
 		*(dst + i) = *(s1 + i);
 
