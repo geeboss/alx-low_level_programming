@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * printf_dog - prints a struct dog
+ * print_dog - prints a struct dog
  * @d: pointer to struct type dog
  * Author: Gee Boss
  * Return: Nothing cause it's void
