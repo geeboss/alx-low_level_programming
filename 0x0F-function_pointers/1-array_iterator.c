@@ -8,7 +8,7 @@
  * Author: Gee
  * Return: no return cause we've declared VOID
  */
-void array_iterator(int *array, size, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
